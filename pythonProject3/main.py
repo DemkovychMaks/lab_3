@@ -23,21 +23,25 @@ def sort_by_price_main():
     out = goods.sort_by_price(True)
     for i in out:
         print(i)
+        print("--------------------")
 
 
 def sort_by_power_main():
     out = goods.sort_by_power(True)
     for i in out:
         print(i)
+        print("********************")
 
 
 def find_by_type(type_of_lamp):
     out = goods.find_by_type(type_of_lamp)
     for i in out:
         print(i)
+        print("####################")
 
 
 sort_by_price_main()
+
 
 sort_by_power_main()
 
